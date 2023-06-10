@@ -11,9 +11,12 @@ public class listado {
     List<items> listaitems = new ArrayList<>();
     //Inserción de datos
     public listado() {
-    	listaitems.add(new items(1,"Papel",30));
+    	listaitems.add(new items(1,"Papel Higiénico",30));
         listaitems.add(new items(2, "Jabón", 18));
         listaitems.add(new items(3, "Cepillos", 25));
+        listaitems.add(new items(4,"Peine",30));
+        listaitems.add(new items(5, "Papel Toalla", 22));
+        listaitems.add(new items(6, "Shampoo", 13));
     }
     //Mostrar Listado
     @GET
